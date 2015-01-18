@@ -14,6 +14,7 @@
 		A0655AC01A6C277F0073DF18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0655ABF1A6C277F0073DF18 /* Images.xcassets */; };
 		A0655AC31A6C277F0073DF18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0655AC11A6C277F0073DF18 /* LaunchScreen.xib */; };
 		A0655ACF1A6C277F0073DF18 /* JenkinsUTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0655ACE1A6C277F0073DF18 /* JenkinsUTTests.m */; };
+		A0655AD91A6C2F5C0073DF18 /* ViewControllerUT.m in Sources */ = {isa = PBXBuildFile; fileRef = A0655AD81A6C2F5C0073DF18 /* ViewControllerUT.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A0655AC81A6C277F0073DF18 /* JenkinsUTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsUTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0655ACD1A6C277F0073DF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0655ACE1A6C277F0073DF18 /* JenkinsUTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsUTTests.m; sourceTree = "<group>"; };
+		A0655AD81A6C2F5C0073DF18 /* ViewControllerUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerUT.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				A0655ACE1A6C277F0073DF18 /* JenkinsUTTests.m */,
 				A0655ACC1A6C277F0073DF18 /* Supporting Files */,
+				A0655AD81A6C2F5C0073DF18 /* ViewControllerUT.m */,
 			);
 			path = JenkinsUTTests;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0655ACF1A6C277F0073DF18 /* JenkinsUTTests.m in Sources */,
+				A0655AD91A6C2F5C0073DF18 /* ViewControllerUT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +418,7 @@
 				A0655AD41A6C277F0073DF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0655AD51A6C277F0073DF18 /* Build configuration list for PBXNativeTarget "JenkinsUTTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				A0655AD71A6C277F0073DF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
